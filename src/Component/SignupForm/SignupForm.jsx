@@ -42,8 +42,8 @@ const SignupForm = () => {
         </Col>
         <Col></Col>
       </Row>
-      <CusttomInput type="text" placeholder="Type Password" />
-      <CusttomInput type="text" placeholder="Re-Type Password" />
+      <CusttomInput type="password" placeholder="Type Password" />
+      <CusttomInput type="password" placeholder="Re-Type Password" />
       <Row className="justify-content-center align-items-center">
         <Col
           style={{
@@ -53,7 +53,7 @@ const SignupForm = () => {
         >
           Already have an account?{" "}
           <Link
-            to="/login"
+            to="/signin"
             style={{
               fontWeight: "600",
               color: "rgba(5, 62, 255, 1)",

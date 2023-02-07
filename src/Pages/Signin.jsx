@@ -1,15 +1,15 @@
 import React from "react";
 import AuthenticationLayout from "../Layout/AuthenticationLayout";
-import SignUpContailer from "../Component/SignupContainer/SignUpContailer";
+import SigninContainer from "../Component/SigninContainer/SigninContainer";
 
-const Home = () => {
+const Signin = () => {
   return (
     <>
       <AuthenticationLayout>
-        <SignUpContailer />
+        <SigninContainer />
       </AuthenticationLayout>
     </>
   );
 };
 
-export default Home;
+export default Signin;
