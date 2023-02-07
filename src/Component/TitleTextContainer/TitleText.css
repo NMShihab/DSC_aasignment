@@ -1,0 +1,14 @@
+.title-text-container h1 {
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.title_2 {
+  color: rgba(5, 62, 255, 1);
+}
+.title-text-container p {
+  font-size: 18px;
+  line-height: 27px;
+}
