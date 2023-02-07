@@ -8,7 +8,10 @@ import DollarImage from "../../Images/dollarImage.png";
 const SignUpContailer = () => {
   return (
     <Container className="mt-5">
-      <Row className="align-items-center justify-content-center">
+      <Row
+        className="align-items-center justify-content-center"
+        style={{ height: "75vh" }}
+      >
         <Col>
           <Left image={DollarImage} />
         </Col>

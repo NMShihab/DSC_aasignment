@@ -5,6 +5,7 @@ import CustomSelect from "../CustomSelect/CustomSelect";
 import CustomButton from "../Button/CustomButton";
 import { Link } from "react-router-dom";
 
+//  Sign up form
 const SignupForm = () => {
   const option1 = ["one", "two", "three"];
 
