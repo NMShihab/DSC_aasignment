@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 const SignupForm = () => {
   const option1 = ["one", "two", "three"];
+
   return (
     <Form>
       <Row>
@@ -65,7 +66,9 @@ const SignupForm = () => {
           </Link>
         </Col>
         <Col>
-          <CustomButton text="Next" />
+          <Link to="/verify-email">
+            <CustomButton text="Next" />
+          </Link>
         </Col>
       </Row>
     </Form>
